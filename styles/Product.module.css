@@ -1,0 +1,61 @@
+.product {
+  display: flex;
+  flex-direction: row;
+  margin-right: 2rem;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px;
+  padding: 20px;
+  width: 100%;
+  max-height: 400px;
+  min-width: 100px;
+  background-color: white;
+  z-index: 1;
+}
+
+.product > div > img {
+  max-height: 200px;
+  width: 140px;
+}
+
+.product > .info > button {
+  background: #f0c14b;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #aaaaaa #9c7e31 #846a29;
+  color: #111;
+}
+.price {
+    flex-direction: row;
+    display: flex;
+}
+
+.info {
+  margin-left: 0.25rem;
+  justify-content: space-between;
+  flex-direction: column;
+  display: flex;
+}
+
+.strong {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 1.25rem;
+  color: #2d3748;
+  max-width: 260px;
+  font-weight: bolder;
+}
+
+.rating {
+  display: flex;   
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin-left: 90px;
+}
+
+
+
